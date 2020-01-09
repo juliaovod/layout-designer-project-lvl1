@@ -137,48 +137,48 @@ body, html {
   line-height: 18px;
 }
 
-/* ===ABOUT=== */
+/* ===SECTIONS (About, Place for rest)=== */
 
-.about {
+.section {
   background-color: #fff;
   display: flex;
   justify-content: center;
 }
 
-.about_contrast {
+.section_contrast {
   background-color: #f8f8f8;
 }
 
-.about__container {
+.section__container {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
   width: 900px;
 }
 
-.about__container_reverse {
+.section__container_reverse {
   flex-direction: row-reverse;
 }
 
-.about__info {
+.section__info {
   width: 450px;
 }
 
-.about__title {
+.section__title {
   color: #162c41;
   font-size: 22px;
   line-height: 28px;
   margin: 0 0 15px;
 }
 
-.about__text {
+.section__text {
   color: #162c41;
   font-size: 12px;
   line-height: 18px;
   margin: 0;
 }
 
-.about__text + .about__text {
+.section__text + .section__text {
   margin-top: 10px;
 }
 
