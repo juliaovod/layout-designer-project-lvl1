@@ -1,3 +1,5 @@
+/* ===GLOBAL=== */
+
 body, html {
   font-family: Verdana, Arial, sans-serif;
   margin: 0;
@@ -7,6 +9,8 @@ body, html {
 main {
   padding-top: 50px;
 }
+
+/* ===HEADER=== */
 
 .header {
   align-items: center;
@@ -48,6 +52,8 @@ main {
 .header__link + .header__link {
   margin-left: 15px;
 }
+
+/* ===BANNER=== */
 
 .banner {
   align-items: center;
@@ -96,6 +102,83 @@ main {
 
 .banner__booking:hover {
   background-color: #fff;
-  color: #000;
   border-color: transparent;
+  color: #000;
+}
+
+/* ===ADVANTAGES=== */
+
+.advantages {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages__container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  width: 1000px;
+}
+
+.advantages__advantage {
+  margin: 0 20px;
+  width: 33%;
+}
+
+.advantages__title {
+  color: #162c41;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.advantages__text {
+  color: #162c41;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* ===ABOUT=== */
+
+.about {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.about_contrast {
+  background-color: #f8f8f8;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  width: 900px;
+}
+
+.about__container_reverse {
+  flex-direction: row-reverse;
+}
+
+.about__info {
+  width: 450px;
+}
+
+.about__title {
+  color: #162c41;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0 0 15px;
+}
+
+.about__text {
+  color: #162c41;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.about__text + .about__text {
+  margin-top: 10px;
 }
