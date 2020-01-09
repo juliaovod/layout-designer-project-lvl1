@@ -72,8 +72,8 @@ body, html {
 
 .banner__title {
   color: #fff;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 28px;
+  line-height: 32px;
   margin: 15px 0 5px;
 }
 
@@ -84,13 +84,14 @@ body, html {
   margin: 0;
 }
 
-.banner__booking {
+.banner__button {
   align-items: center;
   border-radius: 5px;
   border: 1px solid #fff;
   color: #fff;
   display: flex;
-  height: 35px;
+  font-size: 12px;
+  height: 25px;
   justify-content: center;
   margin-top: 15px;
   padding: 0 10px;
@@ -99,7 +100,7 @@ body, html {
   transition: .2s ease-out;
 }
 
-.banner__booking:hover {
+.banner__button:hover {
   background-color: #fff;
   border-color: transparent;
   color: #000;
@@ -137,48 +138,48 @@ body, html {
   line-height: 18px;
 }
 
-/* ===SECTIONS (About, Place for rest)=== */
+/* ===CONTENT=== */
 
-.section {
+.content {
   background-color: #fff;
   display: flex;
   justify-content: center;
 }
 
-.section_contrast {
+.content_contrast {
   background-color: #f8f8f8;
 }
 
-.section__container {
+.content__container {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
   width: 900px;
 }
 
-.section__container_reverse {
+.content__container_reverse {
   flex-direction: row-reverse;
 }
 
-.section__info {
+.content__info {
   width: 450px;
 }
 
-.section__title {
+.content__title {
   color: #162c41;
   font-size: 22px;
   line-height: 28px;
   margin: 0 0 15px;
 }
 
-.section__text {
+.content__text {
   color: #162c41;
   font-size: 12px;
   line-height: 18px;
   margin: 0;
 }
 
-.section__text + .section__text {
+.content__text + .content__text {
   margin-top: 10px;
 }
 
@@ -189,22 +190,21 @@ body, html {
   background-color: #f8f8f8;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  padding-top: 80px;
+  padding: 60px 0 80px;
 }
 
 .request__title {
   color: #162c41;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0 0 20px;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0 0 30px;
 }
 
 /* ===FORM=== */
 
 .form__fieldset {
-  border-color: #38a869;
-  padding: 15px 20px;
+  border-color: #47c297;
+  padding: 15px 20px 25px;
   width: 320px;
 }
 
@@ -213,10 +213,14 @@ body, html {
 }
 
 .form__legend {
-  color: #38a869;
+  color: #47c297;
   font-size: 16px;
   font-weight: 700;
   line-height: 18px;
+}
+
+.form__select {
+  width: 140px;
 }
 
 .form__field {
@@ -225,7 +229,7 @@ body, html {
 }
 
 .form__field + .form__field {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .form__label {
@@ -236,10 +240,10 @@ body, html {
 }
 
 .form__input {
-  border-radius: 4px;
-  border: 1px solid #eee;
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
   box-sizing: border-box;
-  height: 20px;
+  height: 25px;
   outline: none;
   padding: 0 5px;
   width: 140px;
@@ -248,11 +252,11 @@ body, html {
 .form__button {
   background-color: transparent;
   border-radius: 5px;
-  border: 1px solid #38a869;
-  color: #38a869;
+  border: 1px solid #47c297;
+  color: #47c297;
   cursor: pointer;
   font-size: 14px;
-  height: 30px;
+  height: 35px;
   line-height: 16px;
   margin-top: 20px;
   padding: 0 20px;
@@ -261,7 +265,7 @@ body, html {
 }
 
 .form__button:hover {
-  background-color: #38a869;
+  background-color: #47c297;
   border-color: transparent;
   color: #fff;
 }
