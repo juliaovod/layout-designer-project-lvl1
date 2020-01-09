@@ -6,6 +6,24 @@ body, html {
   padding: 0;
 }
 
+h2 {
+  color: #162c41;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0 0 15px;
+}
+
+p {
+  color: #162c41;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+
+p + p {
+  margin-top: 15px;
+}
+
 /* ===HEADER=== */
 
 .header {
@@ -125,19 +143,6 @@ body, html {
   width: 33%;
 }
 
-.advantages__title {
-  color: #162c41;
-  font-size: 22px;
-  line-height: 28px;
-  margin-bottom: 15px;
-}
-
-.advantages__text {
-  color: #162c41;
-  font-size: 12px;
-  line-height: 18px;
-}
-
 /* ===CONTENT=== */
 
 .content {
@@ -165,20 +170,6 @@ body, html {
   width: 450px;
 }
 
-.content__title {
-  color: #162c41;
-  font-size: 22px;
-  line-height: 28px;
-  margin: 0 0 15px;
-}
-
-.content__text {
-  color: #162c41;
-  font-size: 12px;
-  line-height: 18px;
-  margin: 0;
-}
-
 .content__text + .content__text {
   margin-top: 10px;
 }
@@ -194,10 +185,7 @@ body, html {
 }
 
 .request__title {
-  color: #162c41;
-  font-size: 22px;
-  line-height: 28px;
-  margin: 0 0 30px;
+  margin-bottom: 30px;
 }
 
 /* ===FORM=== */
