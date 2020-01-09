@@ -1,0 +1,40 @@
+body, html {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  padding: 0 25px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__text {
+  margin-left: 10px;
+}
+
+.header__logo,
+.header__link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #162C41;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__link + .header__link {
+  margin-left: 15px;
+}
