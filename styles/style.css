@@ -1,22 +1,28 @@
 body, html {
   font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 50px;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0 25px;
   position: fixed;
   width: 100%;
-  padding: 0 25px;
-  height: 50px;
-  box-sizing: border-box;
 }
 
 .header__logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .header__text {
@@ -25,16 +31,71 @@ body, html {
 
 .header__logo,
 .header__link {
+  color: #162C41;
   font-size: 14px;
   line-height: 16px;
-  color: #162C41;
   text-decoration: none;
 }
 
+.header__link {
+  transition: color .2s ease-out;
+}
+
 .header__link:hover {
-  text-decoration: underline;
+  color: #325B95;
 }
 
 .header__link + .header__link {
   margin-left: 15px;
+}
+
+.banner {
+  align-items: center;
+  background: url('../images/banner.png') 50% 70% no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 280px;
+  justify-content: center;
+}
+
+.banner__info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner__title {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 15px 0 5px;
+}
+
+.banner__text {
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+}
+
+.banner__booking {
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition-property: background-color, color, border-color;
+  transition: .2s ease-out;
+}
+
+.banner__booking:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: transparent;
 }
