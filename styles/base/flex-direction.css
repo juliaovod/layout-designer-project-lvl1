@@ -1,3 +1,7 @@
 .flex-direction-column {
   flex-direction: column;
 }
+
+.flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}

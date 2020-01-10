@@ -1,4 +1,5 @@
 @import 'base/align-items.css';
+@import 'base/background-color.css';
 @import 'base/box-sizing.css';
 @import 'base/color.css';
 @import 'base/display.css';
@@ -10,73 +11,12 @@
 
 @import 'atoms/link.css';
 
+@import 'molecules/advantages.css';
 @import 'molecules/banner.css';
+@import 'molecules/content.css';
 @import 'molecules/header.css';
 @import 'molecules/logo.css';
-
-/* ===ADVANTAGES=== */
-
-.advantages {
-  display: flex;
-  justify-content: center;
-}
-
-.advantages__container {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-  width: 1000px;
-}
-
-.advantages__advantage {
-  margin: 0 20px;
-  width: 33%;
-}
-
-/* ===CONTENT=== */
-
-.content {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-}
-
-.content_contrast {
-  background-color: #f8f8f8;
-}
-
-.content__container {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0;
-  width: 900px;
-}
-
-.content__container_reverse {
-  flex-direction: row-reverse;
-}
-
-.content__info {
-  width: 450px;
-}
-
-.content__text + .content__text {
-  margin-top: 10px;
-}
-
-/* ===REQUEST=== */
-
-.request {
-  align-items: center;
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  padding: 60px 0 80px;
-}
-
-.request__title {
-  margin-bottom: 30px;
-}
+@import 'molecules/request.css';
 
 /* ===FORM=== */
 
