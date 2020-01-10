@@ -7,5 +7,10 @@
   line-height: 16px;
   outline: none;
   padding: 0 10px;
+  transition: border-color .2s ease-out;
   width: 140px;
+}
+
+.a-input:focus {
+  border-color: #b4b4b4;
 }
