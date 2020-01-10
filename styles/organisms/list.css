@@ -1,0 +1,7 @@
+.o-list {
+  margin-top: 10px;
+}
+
+.o-list__link:hover {
+  text-decoration: underline;
+}

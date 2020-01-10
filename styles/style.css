@@ -8,6 +8,7 @@
 @import 'base/justify-content.css';
 @import 'base/root.css';
 @import 'base/typography.css';
+@import 'base/width.css';
 
 @import 'atoms/button.css';
 @import 'atoms/fieldset.css';
@@ -18,60 +19,12 @@
 
 @import 'molecules/advantages.css';
 @import 'molecules/banner.css';
+@import 'molecules/footer.css';
 @import 'molecules/header.css';
 @import 'molecules/logo.css';
 @import 'molecules/request.css';
 
 @import 'organisms/form.css';
+@import 'organisms/list.css';
 
 @import 'templates/content.css';
-
-/* ===FOOTER=== */
-
-.footer {
-  background-color: rgba(0, 14, 29, 0.87);
-  display: flex;
-  height: 170px;
-  justify-content: center;
-}
-
-.footer__container {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-  width: 900px;
-}
-
-.footer__copyright {
-  font-size: 10px;
-  line-height: 12px;
-  margin-top: 10px;
-}
-
-.footer__title {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  margin: 0;
-}
-
-.footer__list {
-  margin-top: 10px;
-}
-
-.footer__item {
-  color: #fff;
-}
-
-.footer__link {
-  color: #fff;
-  font-size: 12px;
-  line-height: 14px;
-  text-decoration: none;
-}
-
-.footer__link:hover {
-  text-decoration: underline;
-}

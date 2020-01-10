@@ -1,0 +1,18 @@
+.m-footer {
+  background-color: rgba(0, 14, 29, 0.87);
+  height: 170px;
+}
+
+.m-footer__container {
+  padding-top: 50px;
+}
+
+.m-footer__copyright {
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.m-footer__title {
+  color: var(--color-secondary);
+}
