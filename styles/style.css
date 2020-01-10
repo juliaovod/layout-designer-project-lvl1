@@ -16,13 +16,13 @@
 @import 'atoms/link.css';
 @import 'atoms/select.css';
 
-@import 'organisms/form.css';
-
 @import 'molecules/advantages.css';
 @import 'molecules/banner.css';
 @import 'molecules/header.css';
 @import 'molecules/logo.css';
 @import 'molecules/request.css';
+
+@import 'organisms/form.css';
 
 @import 'templates/content.css';
 
