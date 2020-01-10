@@ -1,0 +1,11 @@
+.a-input {
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 25px;
+  line-height: 16px;
+  outline: none;
+  padding: 0 10px;
+  width: 140px;
+}

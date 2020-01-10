@@ -6,12 +6,9 @@
 }
 
 .m-banner__button {
-  border-radius: 5px;
-  border: 1px solid #fff;
+  border-color: var(--color-secondary);
   color: var(--color-secondary);
-  height: 25px;
   margin-top: 15px;
-  padding: 0 10px;
 }
 
 .m-banner__button:hover {

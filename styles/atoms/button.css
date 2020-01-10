@@ -1,0 +1,14 @@
+.a-button {
+  background-color: transparent;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 35px;
+  line-height: 16px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition-property: background-color, color, border-color;
+  transition: .2s ease-out;
+}

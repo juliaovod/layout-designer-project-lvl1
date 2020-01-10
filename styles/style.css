@@ -9,97 +9,22 @@
 @import 'base/root.css';
 @import 'base/typography.css';
 
+@import 'atoms/button.css';
+@import 'atoms/fieldset.css';
+@import 'atoms/input.css';
+@import 'atoms/label.css';
 @import 'atoms/link.css';
+@import 'atoms/select.css';
+
+@import 'organisms/form.css';
 
 @import 'molecules/advantages.css';
 @import 'molecules/banner.css';
-@import 'molecules/content.css';
 @import 'molecules/header.css';
 @import 'molecules/logo.css';
 @import 'molecules/request.css';
 
-/* ===FORM=== */
-
-.form__fieldset {
-  border-color: #47c297;
-  padding: 15px 20px 25px;
-  width: 320px;
-}
-
-.form__fieldset + .form__fieldset {
-  margin-top: 20px;
-}
-
-.form__legend {
-  color: #47c297;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 18px;
-}
-
-.form__select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  background: url('../images/down-arrow.svg') 95% 50% no-repeat #fff;
-  background-size: 14px 14px;
-  border-radius: 5px;
-  border: 1px solid #e4e4e4;
-  box-sizing: border-box;
-  font-size: 14px;
-  height: 25px;
-  min-width: 140px;
-  outline: none;
-  padding: 0 40px 0 10px;
-}
-
-.form__field {
-  display: flex;
-  justify-content: space-between;
-}
-
-.form__field + .form__field {
-  margin-top: 20px;
-}
-
-.form__label {
-  color: #162c41;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 14px;
-}
-
-.form__input {
-  border-radius: 5px;
-  border: 1px solid #e4e4e4;
-  box-sizing: border-box;
-  font-size: 16px;
-  height: 25px;
-  outline: none;
-  padding: 0 10px;
-  width: 140px;
-}
-
-.form__button {
-  background-color: transparent;
-  border-radius: 5px;
-  border: 1px solid #47c297;
-  color: #47c297;
-  cursor: pointer;
-  font-size: 14px;
-  height: 35px;
-  line-height: 16px;
-  margin-top: 20px;
-  padding: 0 20px;
-  transition-property: background-color, color, border-color;
-  transition: .2s ease-out;
-}
-
-.form__button:hover {
-  background-color: #47c297;
-  border-color: transparent;
-  color: #fff;
-}
+@import 'templates/content.css';
 
 /* ===FOOTER=== */
 

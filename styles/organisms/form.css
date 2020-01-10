@@ -1,0 +1,19 @@
+.o-form {
+  --form-text-color: #47c297;
+}
+
+.o-form__field + .o-form__field {
+  margin-top: 20px;
+}
+
+.o-form__button {
+  border: 1px solid var(--form-text-color);
+  color: var(--form-text-color);
+  margin-top: 20px;
+}
+
+.o-form__button:hover {
+  background-color: var(--form-text-color);
+  border-color: transparent;
+  color: var(--color-secondary);
+}
