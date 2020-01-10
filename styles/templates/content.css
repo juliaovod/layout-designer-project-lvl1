@@ -1,4 +1,11 @@
+.t-content {
+  display: flex;
+  justify-content: center;
+}
+
 .t-content__container {
+  display: flex;
+  justify-content: space-between;
   padding: 50px 0;
   width: 900px;
 }
