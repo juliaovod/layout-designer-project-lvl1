@@ -1,0 +1,21 @@
+.m-banner {
+  background: url('../../images/banner.png') 50% 70% no-repeat;
+  background-size: cover;
+  height: 280px;
+  margin-top: 50px;
+}
+
+.m-banner__button {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: var(--color-secondary);
+  height: 25px;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+.m-banner__button:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-transparent);
+  color: var(--color-tertiary);
+}

@@ -1,0 +1,7 @@
+.a-link {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  transition-property: background-color, color, border-color;
+  transition: .2s ease-out;
+}

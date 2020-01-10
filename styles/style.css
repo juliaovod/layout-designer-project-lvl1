@@ -1,128 +1,18 @@
-/* ===GLOBAL=== */
+@import 'base/align-items.css';
+@import 'base/box-sizing.css';
+@import 'base/color.css';
+@import 'base/display.css';
+@import 'base/flex-direction.css';
+@import 'base/font-size.css';
+@import 'base/justify-content.css';
+@import 'base/root.css';
+@import 'base/typography.css';
 
-body, html {
-  font-family: Verdana, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+@import 'atoms/link.css';
 
-h2 {
-  color: #162c41;
-  font-size: 22px;
-  line-height: 28px;
-  margin: 0 0 15px;
-}
-
-p {
-  color: #162c41;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-}
-
-p + p {
-  margin-top: 15px;
-}
-
-/* ===HEADER=== */
-
-.header {
-  align-items: center;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
-  display: flex;
-  height: 50px;
-  justify-content: space-between;
-  padding: 0 25px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.header__logo {
-  align-items: center;
-  display: flex;
-}
-
-.header__text {
-  margin-left: 10px;
-}
-
-.header__logo,
-.header__link {
-  color: #162C41;
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
-}
-
-.header__link {
-  transition: color .2s ease-out;
-}
-
-.header__link:hover {
-  color: #325B95;
-}
-
-.header__link + .header__link {
-  margin-left: 15px;
-}
-
-/* ===BANNER=== */
-
-.banner {
-  align-items: center;
-  background: url('../images/banner.png') 50% 70% no-repeat;
-  background-size: cover;
-  display: flex;
-  height: 280px;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.banner__info {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.banner__title {
-  color: #fff;
-  font-size: 28px;
-  line-height: 32px;
-  margin: 15px 0 5px;
-}
-
-.banner__text {
-  color: #fff;
-  font-size: 12px;
-  line-height: 14px;
-  margin: 0;
-}
-
-.banner__button {
-  align-items: center;
-  border-radius: 5px;
-  border: 1px solid #fff;
-  color: #fff;
-  display: flex;
-  font-size: 12px;
-  height: 25px;
-  justify-content: center;
-  margin-top: 15px;
-  padding: 0 10px;
-  text-decoration: none;
-  transition-property: background-color, color, border-color;
-  transition: .2s ease-out;
-}
-
-.banner__button:hover {
-  background-color: #fff;
-  border-color: transparent;
-  color: #000;
-}
+@import 'molecules/banner.css';
+@import 'molecules/header.css';
+@import 'molecules/logo.css';
 
 /* ===ADVANTAGES=== */
 
@@ -288,23 +178,10 @@ p + p {
   width: 900px;
 }
 
-.footer__logo {
-  align-items: center;
-  display: flex;
-  margin-bottom: 10px;
-}
-
-.footer__text {
-  color: #fff;
-  font-size: 12px;
-  line-height: 14px;
-  margin-left: 10px;
-}
-
 .footer__copyright {
-  color: #fff;
   font-size: 10px;
   line-height: 12px;
+  margin-top: 10px;
 }
 
 .footer__title {
