@@ -1,13 +1,18 @@
 .t-content {
+  background-color: #fff;
   display: flex;
   justify-content: center;
+}
+
+.t-content_background_gray {
+  background-color: #f8f8f8;
 }
 
 .t-content__container {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
-  width: 900px;
+  width: 1000px;
 }
 
 .t-content__info {

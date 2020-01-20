@@ -1,14 +1,6 @@
-@import 'base/align-items.css';
-@import 'base/background-color.css';
-@import 'base/box-sizing.css';
-@import 'base/color.css';
-@import 'base/display.css';
-@import 'base/flex-direction.css';
-@import 'base/font-size.css';
 @import 'base/justify-content.css';
 @import 'base/root.css';
 @import 'base/typography.css';
-@import 'base/width.css';
 
 @import 'atoms/button.css';
 @import 'atoms/fieldset.css';
@@ -28,3 +20,4 @@
 @import 'organisms/list.css';
 
 @import 'templates/content.css';
+@import 'templates/layout.css';

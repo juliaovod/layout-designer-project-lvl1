@@ -2,6 +2,10 @@
   --form-text-color: #47c297;
 }
 
+.o-form__field {
+  display: flex;
+}
+
 .o-form__field + .o-form__field {
   margin-top: 20px;
 }

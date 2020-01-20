@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="m-header display-flex justify-content-space-between align-items-center box-sizing-border-box">
-        <a href="/" class="m-logo display-flex align-items-center" title="Перейти на главную страницу">
+    <header class="m-header justify-content-space-between">
+        <a href="/" class="m-logo" title="Перейти на главную страницу">
             <img class="m-logo__image" src="images/logo.svg" width="35" height="35" alt="Логотип">
             <span class="m-logo__text">Лунное море</span>
         </a>
@@ -22,19 +22,19 @@
     </header>
 
     <main>
-        <div class="m-banner display-flex justify-content-center align-items-center">
-            <div class="display-flex flex-direction-column align-items-center">
+        <div class="m-banner justify-content-center">
+            <div class="m-banner__container">
                 <img src="images/logo.svg" width="100" height="100" alt="Логотип">
-                <h1 class="color-fff">ЖК «Лунное море»</h1>
-                <p class="color-fff">Место, откуда не хочется улетать</p>
-                <a href="#form" class="m-banner__button display-flex justify-content-center align-items-center a-button" title="Перейти на страницу формы">
+                <h1 class="m-banner__title">ЖК «Лунное море»</h1>
+                <p class="m-banner__text">Место, откуда не хочется улетать</p>
+                <a href="#form" class="m-banner__button justify-content-center a-button" title="Перейти на страницу формы">
                     Забронировать
                 </a>
             </div>
         </div>
 
-        <section class="display-flex justify-content-center" id="advantages">
-            <div class="m-advantages__container display-flex justify-content-center">
+        <section class="m-advantages t-layout justify-content-center" id="advantages">
+            <div class="m-advantages__container t-layout__container justify-content-center">
                 <div class="m-advantages__advantage">
                     <h2>Уникальный вид</h2>
                     <p>
@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <section class="t-content background-color-f8f8f8" id="about">
+        <section class="t-content t-content_background_gray" id="about">
             <div class="t-content__container">
                 <div class="t-content__info">
                     <h2>О ЖК «Лунное море»</h2>
@@ -77,7 +77,7 @@
             </div>
         </section>
 
-        <section class="t-content background-color-fff" id="rest">
+        <section class="t-content" id="rest">
             <div class="t-content__container">
                 <img src="images/moon-2.jpg" alt="Луна" width="312" height="199">
                 <div class="t-content__info">
@@ -94,12 +94,12 @@
             </div>
         </section>
 
-        <section class="m-request display-flex flex-direction-column align-items-center background-color-f8f8f8" id="form">
+        <section class="m-request" id="form">
             <h2 class="m-request__title">Оставьте заявку сегодня!</h2>
             <form class="o-form">
                 <fieldset class="a-fieldset">
                     <legend class="a-fieldset__legend">Параметры квартиры</legend>
-                    <div class="o-form__field display-flex justify-content-space-between">
+                    <div class="o-form__field justify-content-space-between">
                         <label for="rooms" class="a-label">Количество комнат:</label>
                         <select class="a-select a-input" id="rooms" >
                             <option value="1">1</option>
@@ -107,7 +107,7 @@
                             <option value="3">3</option>
                         </select>
                     </div>
-                    <div class="o-form__field display-flex justify-content-space-between">
+                    <div class="o-form__field justify-content-space-between">
                         <label for="decorations" class="a-label">Отделка:</label>
                         <select class="a-select a-input" id="decorations">
                             <option value="1">Без отделки</option>
@@ -119,15 +119,15 @@
 
                 <fieldset class="a-fieldset">
                     <legend class="a-fieldset__legend">Контактная информация</legend>
-                    <div class="o-form__field display-flex justify-content-space-between">
+                    <div class="o-form__field justify-content-space-between">
                         <label for="name" class="a-label">Имя:</label>
                         <input type="text" id="name" class="a-input">
                     </div>
-                    <div class="o-form__field display-flex justify-content-space-between">
+                    <div class="o-form__field justify-content-space-between">
                         <label for="phone" class="a-label">Телефон:</label>
                         <input type="tel" id="phone" class="a-input">
                     </div>
-                    <div class="o-form__field display-flex justify-content-space-between">
+                    <div class="o-form__field justify-content-space-between">
                         <label for="email" class="a-label">Email:</label>
                         <input type="email" id="email" class="a-input">
                     </div>
@@ -138,12 +138,12 @@
         </section>
     </main>
 
-    <footer class="m-footer display-flex justify-content-center">
-        <div class="m-footer__container display-flex justify-content-space-between box-sizing-border-box width-900px">
+    <footer class="m-footer t-layout justify-content-center">
+        <div class="m-footer__container t-layout__container justify-content-space-between">
             <div>
-                <div class="m-logo display-flex align-items-center">
+                <div class="m-logo">
                     <img class="m-logo__image" src="images/logo.svg" width="35" height="35" alt="Логотип">
-                    <span class="m-logo__text color-fff">Лунное море</span>
+                    <span class="m-logo__text m-logo__text_light">Лунное море</span>
                 </div>
                 <div class="m-footer__copyright">© 2032</div>
             </div>
@@ -151,11 +151,11 @@
             <div>
                 <h3 class="m-footer__title">Проектная документация</h3>
                 <ul class="o-list">
-                    <li class="color-fff">
-                        <a href="/" class="o-list__link color-fff a-link" title="Скачать">Скачать</a>
+                    <li class="o-list__item">
+                        <a href="/" class="o-list__link a-link" title="Скачать">Скачать</a>
                     </li>
-                    <li class="color-fff">
-                        <a href="/" class="o-list__link color-fff a-link" title="Посмотреть на сайте">Посмотреть на сайте</a>
+                    <li class="o-list__item">
+                        <a href="/" class="o-list__link a-link" title="Посмотреть на сайте">Посмотреть на сайте</a>
                     </li>
                 </ul>
             </div>
@@ -163,11 +163,11 @@
             <div>
                 <h3 class="m-footer__title">О застройщике</h3>
                 <ul class="o-list">
-                    <li class="color-fff">
-                        <a href="/" class="o-list__link color-fff a-link" title="Отзывы">Отзывы</a>
+                    <li class="o-list__item">
+                        <a href="/" class="o-list__link a-link" title="Отзывы">Отзывы</a>
                     </li>
-                    <li class="color-fff">
-                        <a href="/" class="o-list__link color-fff a-link" title="Сайт компании">Сайт компании</a>
+                    <li class="o-list__item">
+                        <a href="/" class="o-list__link a-link" title="Сайт компании">Сайт компании</a>
                     </li>
                 </ul>
             </div>

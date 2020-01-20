@@ -1,13 +1,28 @@
 .m-banner {
-  background: url('../../images/banner.png') 50% 70% no-repeat;
+  align-items: center;
   background-size: cover;
+  background: url('../../images/banner.png') 50% 70% no-repeat;
+  display: flex;
   height: 280px;
   margin-top: 50px;
 }
 
+.m-banner__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.m-banner__title,
+.m-banner__text {
+  color: var(--color-secondary);
+}
+
 .m-banner__button {
+  align-items: center;
   border-color: var(--color-secondary);
   color: var(--color-secondary);
+  display: flex;
   margin-top: 15px;
 }
 

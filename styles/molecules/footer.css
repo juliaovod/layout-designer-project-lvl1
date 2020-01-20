@@ -4,7 +4,9 @@
 }
 
 .m-footer__container {
+  box-sizing: border-box;
   padding-top: 50px;
+  width: 1000px;
 }
 
 .m-footer__copyright {

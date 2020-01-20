@@ -2,6 +2,11 @@
   margin-top: 10px;
 }
 
+.o-list__item,
+.o-list__link {
+  color: var(--color-secondary);
+}
+
 .o-list__link:hover {
   text-decoration: underline;
 }
