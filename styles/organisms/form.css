@@ -1,8 +1,10 @@
 .o-form {
   --form-text-color: #47c297;
+  width: 400px;
 }
 
 .o-form__field {
+  align-items: center;
   display: flex;
 }
 
