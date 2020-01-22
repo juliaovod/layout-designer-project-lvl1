@@ -1,0 +1,27 @@
+.align-items-center {
+  align-items: center;
+}
+
+.background-color-gray {
+  background-color: #f8f8f8;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.width-1000-px {
+  width: 1000px;
+}

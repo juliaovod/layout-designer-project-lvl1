@@ -1,4 +1,4 @@
-@import 'base/justify-content.css';
+@import 'base/atomic.css';
 @import 'base/root.css';
 @import 'base/typography.css';
 
@@ -20,4 +20,3 @@
 @import 'organisms/list.css';
 
 @import 'templates/content.css';
-@import 'templates/layout.css';
