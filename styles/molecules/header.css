@@ -4,7 +4,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   display: flex;
-  height: 50px;
+  height: var(--header-height);
   padding: 0 25px;
   position: fixed;
   top: 0;
@@ -16,5 +16,5 @@
 }
 
 .m-header__link:hover {
-  color: #325b95;
+  text-decoration: underline;
 }

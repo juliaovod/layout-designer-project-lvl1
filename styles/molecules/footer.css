@@ -1,11 +1,5 @@
 .m-footer {
-  background-color: rgba(0, 14, 29, 0.87);
-  height: 170px;
-}
-
-.m-footer__container {
-  box-sizing: border-box;
-  padding-top: 50px;
+  background-color: var(--color-primary);
 }
 
 .m-footer__copyright {

@@ -19,4 +19,5 @@
 @import 'organisms/form.css';
 @import 'organisms/list.css';
 
+@import 'templates/container.css';
 @import 'templates/content.css';
