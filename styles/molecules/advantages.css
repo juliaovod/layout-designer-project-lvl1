@@ -1,7 +1,0 @@
-.m-advantages__advantage {
-  width: 33%;
-}
-
-.m-advantages__advantage + .m-advantages__advantage {
-  margin-left: 20px;
-}

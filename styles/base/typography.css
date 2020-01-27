@@ -35,3 +35,12 @@ a {
   color: var(--color-primary, #000);
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin: 0;
+}

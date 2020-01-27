@@ -10,11 +10,3 @@
   top: 0;
   width: 100%;
 }
-
-.m-header__link {
-  margin-left: 15px;
-}
-
-.m-header__link:hover {
-  text-decoration: underline;
-}

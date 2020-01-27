@@ -3,12 +3,6 @@
 }
 
 .m-footer__copyright {
-  color: var(--color-secondary);
   font-size: 10px;
   line-height: 12px;
-  margin-top: 10px;
-}
-
-.m-footer__title {
-  color: var(--color-secondary);
 }

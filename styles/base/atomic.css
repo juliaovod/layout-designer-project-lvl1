@@ -21,3 +21,23 @@
 .justify-content-space-between {
   justify-content: space-between;
 }
+
+.margin-left-20-px {
+  margin-left: 20px;
+}
+
+.margin-top-20px {
+  margin-top: 20px;
+}
+
+.text-color-white {
+  color: var(--color-secondary);
+}
+
+.width-33-pct {
+  width: 33%;
+}
+
+.width-420-px {
+  width: 420px;
+}
