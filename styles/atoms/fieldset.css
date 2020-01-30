@@ -6,7 +6,5 @@
 
 .a-fieldset__legend {
   color: var(--form-text-color);
-  font-size: 16px;
   font-weight: 700;
-  line-height: 18px;
 }
