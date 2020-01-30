@@ -1,13 +1,13 @@
-.o-form {
+.form {
   --form-text-color: #47c297;
 }
 
-.o-form__button {
+.form__button {
   border: 1px solid var(--form-text-color);
   color: var(--form-text-color);
 }
 
-.o-form__button:hover {
+.form__button:hover {
   background-color: var(--form-text-color);
   border-color: transparent;
   color: var(--color-secondary);

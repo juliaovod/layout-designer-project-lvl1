@@ -10,10 +10,10 @@
 @import 'atoms/select.css';
 
 @import 'molecules/banner.css';
+@import 'molecules/copyright.css';
 @import 'molecules/footer.css';
 @import 'molecules/header.css';
 @import 'molecules/logo.css';
-@import 'molecules/request.css';
 
 @import 'organisms/form.css';
 

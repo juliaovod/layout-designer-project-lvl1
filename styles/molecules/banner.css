@@ -1,15 +1,15 @@
-.m-banner {
+.banner {
   background-size: cover;
   background: url('../../images/banner.png') 50% 70% no-repeat;
   padding: 40px 0;
 }
 
-.m-banner__button {
+.banner__button {
   border-color: var(--color-secondary);
   color: var(--color-secondary);
 }
 
-.m-banner__button:hover {
+.banner__button:hover {
   background-color: var(--color-secondary);
   border-color: var(--color-transparent);
   color: var(--color-tertiary);

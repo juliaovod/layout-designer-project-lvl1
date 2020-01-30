@@ -9,45 +9,45 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="m-header justify-content-space-between">
-        <a href="/" class="m-logo display-flex align-items-center" title="Перейти на главную страницу">
-            <img class="m-logo__image" src="images/logo.svg" width="35" height="35" alt="Логотип">
-            <span class="m-logo__text">Лунное море</span>
+    <header class="header justify-content-space-between">
+        <a href="/" class="logo display-flex align-items-center" title="Перейти на главную страницу">
+            <img class="logo__image" src="images/logo.svg" width="35" height="35" alt="Логотип">
+            <span class="logo__text">Лунное море</span>
         </a>
         <nav>
-            <a href="#advantages" class="ml-20 a-link" title="Преимущества">Преимущества</a>
-            <a href="#about" class="ml-20 a-link" title="О ЖК">О ЖК</a>
-            <a href="#rest" class="ml-20 a-link" title="Место для отдыха">Место для отдыха</a>
+            <a href="#advantages" class="ml-20 link" title="Преимущества">Преимущества</a>
+            <a href="#about" class="ml-20 link" title="О ЖК">О ЖК</a>
+            <a href="#rest" class="ml-20 link" title="Место для отдыха">Место для отдыха</a>
         </nav>
     </header>
 
     <main>
-        <div class="m-banner display-flex flex-direction-column align-items-center justify-content-center">
+        <div class="banner display-flex flex-direction-column align-items-center justify-content-center">
             <img src="images/logo.svg" width="100" height="100" alt="Логотип">
             <h1 class="text-color-white">ЖК «Лунное море»</h1>
             <p class="text-color-white">Место, откуда не хочется улетать</p>
-            <a href="#form" class="m-banner__button display-flex align-items-center justify-content-center mt-20 a-button" title="Перейти на страницу формы">
+            <a href="#form" class="banner__button display-flex align-items-center justify-content-center mt-20 button" title="Перейти на страницу формы">
                 Забронировать
             </a>
         </div>
 
         <section class="display-flex justify-content-center" id="advantages">
-            <div class="t-container display-flex">
-                <div class="width-33-pct pl-20 pr-20">
+            <div class="container">
+                <div class="width-33-pct py-20">
                     <h2>Уникальный вид</h2>
                     <p>
                         Вид на космос из вашего окна. Мы построили дома с большими окнами,
                         чтобы вы могли наслаждаться метеоритными потоками.
                     </p>
                 </div>
-                <div class="width-33-pct pl-20 pr-20">
+                <div class="width-33-pct py-20">
                     <h2>Инфраструктура</h2>
                     <p>
                         Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка
                         находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.
                     </p>
                 </div>
-                <div class="width-33-pct pl-20 pr-20">
+                <div class="width-33-pct py-20">
                     <h2>Близость к Москве</h2>
                     <p>
                         При небольшой цене мы располагаемся близко к МКАД.
@@ -58,7 +58,7 @@
         </section>
 
         <section class="display-flex justify-content-center background-color-gray" id="about">
-            <div class="t-container display-flex justify-content-space-between">
+            <div class="container justify-content-space-between">
                 <div class="width-420-px">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>
@@ -71,13 +71,13 @@
                         всего в 380 тысяч километров от Земли.
                     </p>
                 </div>
-                <img src="images/moon-1.jpg" alt="Луна" width="270" height="180">
+                <img src="images/moon-1.jpg" alt="Луна" width="35%" height="auto">
             </div>
         </section>
 
         <section class="display-flex justify-content-center" id="rest">
-            <div class="t-container display-flex justify-content-space-between">
-                <img src="images/moon-2.jpg" alt="Луна" width="312" height="199">
+            <div class="container justify-content-space-between">
+                <img src="images/moon-2.jpg" alt="Луна" width="35%" height="auto">
                 <div class="width-420-px">
                     <h2>Места для отдыха</h2>
                     <p>
@@ -92,68 +92,70 @@
             </div>
         </section>
 
-        <section class="m-request display-flex flex-direction-column align-items-center background-color-gray" id="form">
-            <h2 class="m-request__title">Оставьте заявку сегодня!</h2>
-            <form class="o-form width-420-px">
-                <fieldset class="a-fieldset">
-                    <legend class="a-fieldset__legend">Параметры квартиры</legend>
-                    <div class="display-flex align-items-center justify-content-space-between">
-                        <label for="rooms" class="a-label">Количество комнат:</label>
-                        <select class="a-select a-input" id="rooms" >
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
-                    </div>
-                    <div class="display-flex align-items-center justify-content-space-between mt-20">
-                        <label for="decorations" class="a-label">Отделка:</label>
-                        <select class="a-select a-input" id="decorations">
-                            <option value="1">Без отделки</option>
-                            <option value="2">Частичная отделка</option>
-                            <option value="3">Полная отделка</option>
-                        </select>
-                    </div>
-                </fieldset>
+        <section class="display-flex justify-content-center background-color-gray" id="form">
+            <div class="container flex-direction-column justify-content-center align-items-center">
+                <h2 class="mb-20">Оставьте заявку сегодня!</h2>
+                <form class="form width-420-px">
+                    <fieldset class="fieldset">
+                        <legend class="fieldset__legend">Параметры квартиры</legend>
+                        <div class="display-flex align-items-center justify-content-space-between">
+                            <label for="rooms" class="label">Количество комнат:</label>
+                            <select class="select input" id="rooms" >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="display-flex align-items-center justify-content-space-between mt-20">
+                            <label for="decorations" class="label">Отделка:</label>
+                            <select class="select input" id="decorations">
+                                <option value="1">Без отделки</option>
+                                <option value="2">Частичная отделка</option>
+                                <option value="3">Полная отделка</option>
+                            </select>
+                        </div>
+                    </fieldset>
 
-                <fieldset class="a-fieldset">
-                    <legend class="a-fieldset__legend">Контактная информация</legend>
-                    <div class="display-flex align-items-center justify-content-space-between">
-                        <label for="name" class="a-label">Имя:</label>
-                        <input type="text" id="name" class="a-input">
-                    </div>
-                    <div class="display-flex align-items-center justify-content-space-between mt-20">
-                        <label for="phone" class="a-label">Телефон:</label>
-                        <input type="tel" id="phone" class="a-input">
-                    </div>
-                    <div class="display-flex align-items-center justify-content-space-between mt-20">
-                        <label for="email" class="a-label">Email:</label>
-                        <input type="email" id="email" class="a-input">
-                    </div>
-                </fieldset>
+                    <fieldset class="fieldset">
+                        <legend class="fieldset__legend">Контактная информация</legend>
+                        <div class="display-flex align-items-center justify-content-space-between">
+                            <label for="name" class="label">Имя:</label>
+                            <input type="text" id="name" class="input">
+                        </div>
+                        <div class="display-flex align-items-center justify-content-space-between mt-20">
+                            <label for="phone" class="label">Телефон:</label>
+                            <input type="tel" id="phone" class="input">
+                        </div>
+                        <div class="display-flex align-items-center justify-content-space-between mt-20">
+                            <label for="email" class="label">Email:</label>
+                            <input type="email" id="email" class="input">
+                        </div>
+                    </fieldset>
 
-                <button type="submit" class="o-form__button mt-20 a-button" title="Отправить форму">Отправить</button>
-            </form>
+                    <button type="submit" class="form__button mt-20 button" title="Отправить форму">Отправить</button>
+                </form>
+            </div>
         </section>
     </main>
 
-    <footer class="m-footer display-flex justify-content-center">
-        <div class="t-container display-flex justify-content-space-between">
+    <footer class="footer display-flex justify-content-center">
+        <div class="container justify-content-space-between">
             <div>
-                <div class="m-logo display-flex align-items-center">
-                    <img class="m-logo__image" src="images/logo.svg" width="35" height="35" alt="Логотип">
-                    <span class="m-logo__text text-color-white">Лунное море</span>
+                <div class="logo display-flex align-items-center">
+                    <img class="logo__image" src="images/logo.svg" width="35" height="35" alt="Логотип">
+                    <span class="logo__text text-color-white">Лунное море</span>
                 </div>
-                <div class="m-footer__copyright mt-20 text-color-white">© 2032</div>
+                <div class="copyright mt-20 text-color-white">© 2032</div>
             </div>
 
             <div>
                 <h3 class="text-color-white">Проектная документация</h3>
                 <ul class="mt-20">
                     <li class="text-color-white">
-                        <a href="/" class="text-color-white a-link" title="Скачать">Скачать</a>
+                        <a href="/" class="text-color-white link" title="Скачать">Скачать</a>
                     </li>
                     <li class="text-color-white">
-                        <a href="/" class="text-color-white a-link" title="Посмотреть на сайте">Посмотреть на сайте</a>
+                        <a href="/" class="text-color-white link" title="Посмотреть на сайте">Посмотреть на сайте</a>
                     </li>
                 </ul>
             </div>
@@ -162,10 +164,10 @@
                 <h3 class="text-color-white">О застройщике</h3>
                 <ul class="mt-20">
                     <li class="text-color-white">
-                        <a href="/" class="text-color-white a-link" title="Отзывы">Отзывы</a>
+                        <a href="/" class="text-color-white link" title="Отзывы">Отзывы</a>
                     </li>
                     <li class="text-color-white">
-                        <a href="/" class="text-color-white a-link" title="Сайт компании">Сайт компании</a>
+                        <a href="/" class="text-color-white link" title="Сайт компании">Сайт компании</a>
                     </li>
                 </ul>
             </div>
